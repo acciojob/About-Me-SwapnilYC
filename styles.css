@@ -1,1 +1,47 @@
 
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:20px;
+}
+
+.masterContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    /* border: 3px solid black; */
+
+}
+/* ---------------------------------------------left-container-------------------------------------------------------------- */
+/* left-top container>> img-des */
+.img-des{
+    display: flex;
+    justify-content:left;
+    align-content: center;
+    padding: 10px auto;
+}
+
+.des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: auto 5px;
+}
+
+span{
+    font-weight: bold;
+}
+
+p > span{
+    margin: 0;
+}
+/* left-bottom container>> sills */
+.icon{
+    display: inline-block;
+    width: 1.5vw;
+    height: 3vh;
+    margin-left: 3px;
+}
+    
